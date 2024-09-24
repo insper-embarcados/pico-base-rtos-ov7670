@@ -25,6 +25,7 @@ target_link_libraries(pico-freertos PRIVATE
     pico_stdlib
     FreeRTOS-Kernel
     FreeRTOS-Kernel-Heap4
+    hardware_i2c
 )
 
 target_compile_options(pico-freertos PRIVATE -Wall)
